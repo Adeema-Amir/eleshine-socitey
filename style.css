@@ -232,7 +232,7 @@ p {
 /* Hero Section */
 
 #hero {
-    background-image: url('images/15.jpg');
+    background-image: url('static/images/14.jpg');
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -339,7 +339,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url('image/13.jpg');
+    background-image: url(image/35.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -354,7 +354,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #2c3c29 0%, #634848 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: 0.9;
     z-index: -1;
 }
