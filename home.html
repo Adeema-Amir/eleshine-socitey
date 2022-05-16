@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.js">
+    <link rel="stylesheet" href="video">
+    <link rel="stylesheet" href="aduio">
+    <link rel="stylesheet" href="images">
+    <title>home</title>
+</head>
+
+<body bgcolor="crimson">
+
+
+    <style>
+        body {
+            background-color: rgb(61, 10, 145);
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-style: normal;
+            line-height: 0.4;
+            letter-spacing: 1.5rem;
+            text-align: center;
+            color: rgb(19, 241, 149);
+            margin-top: 50px;
+        }
+        
+        .maindiv {
+            width: 1265px;
+            height: 600px;
+            position: center;
+            transform: translate(-50% -50%);
+            background-size: 100% 100%;
+            border: rgb(235, 8, 8);
+            box-shadow: 5px 25px 35px 35px rgb(10, 236, 161);
+            animation: slider 30s infinite linear;
+        }
+        
+        @keyframes slider {
+            0% {
+                background-image: url('images/2.jpg');
+            }
+            30% {
+                background-image: url('images/3.jpg');
+            }
+            50% {
+                background-image: url('images/4.jpg');
+            }
+            60% {
+                background-image: url('images/5.jpg');
+            }
+            80% {
+                background-image: url('images/6.jpg');
+            }
+        }
+    </style>
+
+    <body>
+        <h1>slider animation</h1>
+        <div class="maindiv "></div>
+
+        <audio controls src="audio/2.mp3"> music</audio><br>
+        <video controls src="video/2.mp4"></video>
+        <video controls src="video/1.mp4"></video>
+
+    </body>
+
+
+
+
+    <body>
