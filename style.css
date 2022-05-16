@@ -339,7 +339,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(image/35.jpg);
+    background-image: url('static/images/1.jpg');
     background-size: cover;
     margin: 10px 5%;
     position: relative;
